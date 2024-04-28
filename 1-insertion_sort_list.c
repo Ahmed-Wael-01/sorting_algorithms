@@ -1,7 +1,6 @@
 #include "sort.h"
 /**
  * insertion_sort_list - it should work
- * @listint_t: para1
  * @list: the list that should be sorted
  * Description: it sorts an array in numberic order
  * Return: sorted array
