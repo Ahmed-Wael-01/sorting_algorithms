@@ -54,5 +54,8 @@ void demon(int *array, size_t size, int *printable, size_t original_size)
 
 void quick_sort(int *array, size_t size)
 {
+	if (array == NULL || size < 2)
+		return;
+
 	demon(array, size, array, size);
 }
