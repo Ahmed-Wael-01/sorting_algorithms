@@ -3,7 +3,6 @@
  * insertion_sort_list - it should work
  * @list: the list that should be sorted
  * Description: it sorts an array in numberic order
- * Return: sorted array
  */
 void insertion_sort_list(listint_t **list)
 {
