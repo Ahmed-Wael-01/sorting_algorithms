@@ -33,7 +33,7 @@ void demon(int *array, size_t size, int *printable, size_t original_size)
 		}
 	}
 	i++;
-	if (size - 1 != i)
+	if (size - 1 != i && array[size - 1] != array[i])
 	{
 		tmp = array[size - 1];
 		array[size - 1] = array[i];
